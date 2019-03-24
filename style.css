@@ -1,0 +1,70 @@
+body {
+  margin:auto;
+  padding:0;
+}
+.slider{
+   margin-top:40px;
+   width:
+}
+.hexagon {
+
+
+  float: left;
+  width: 220px;
+  height: 190px;
+  transform: rotate(90deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.poligon-1 {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.poligon-2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+}
+
+.hexagon:hover {
+  transform: rorate(-240deg);
+  transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.left-line {
+  border-right:10px solid yellow;
+ float:left;
+ margin-top: 40px;
+  width: 100px;
+  height: 110px;
+  background-color: blue;
+}
+.right-line {
+  border-left:10px solid yellow;
+ float:left;
+ margin-top: 40px;
+  width: 100px;
+  height: 110px;
+  background-color: blue;
+}
+
+img {
+  position: relative;
+  transform: rotate(30deg);
+  width: 186px;
+  height: 220px;
+  bottom: 15px;
+  left: 17px;
+}
+#smith{
+  display:inline-block;
+  width:424px;
+  height: 207px;
+}
