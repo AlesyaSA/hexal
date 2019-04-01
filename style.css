@@ -12,20 +12,19 @@ header {
   color: #fff;
 }
 
-
 nav ul{
-
-  margin: auto;
+  width: 418px;
+  margin:0 auto;
   padding: 0;
   list-style: none;
+
 }
 nav li{
-
+  text-align:center;
+  width: 80px;
   display: inline-block;
-  margin: auto 65px -20px;;
-  padding: 0px;
 
-}
+  }
 nav a{
 
   color:white;
