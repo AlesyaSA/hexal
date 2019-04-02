@@ -4,7 +4,6 @@
 }
 
 header {
-
   margin: 0 auto;
   height: 63px;
   width: 1020px;
@@ -12,70 +11,68 @@ header {
   color: #fff;
 }
 
-
-nav ul{
+nav ul {
   width: 430px;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
-
-
 }
-nav img{
-  padding-top: 10px;
 
-  }
-nav li{
-vertical-align: middle;
-  text-align:center;
+nav img {
+  padding-top: 10px;
+}
+
+nav li {
+  vertical-align: middle;
+  text-align: center;
   width: 80px;
   display: inline-block;
+}
 
-  }
-nav a{
-  font-family: "sans-serif",Arial, sans-serif;
-
+nav a {
+  font-family: "sans-serif", Arial, sans-serif;
   text-transform: uppercase;
-  font-size:8px;
-  color:white;
+  font-size: 8px;
+  color: #ebebeb;
   text-decoration: none;
 }
-nav a:hover{
-  color:#2f9882;
+
+nav a:hover {
+  color: #2f9882;
 }
-.dot{
+
+.dot {
   position: relative;
   display: inline-block;
   height: 2px;
   width: 2px;
-  background-color:#424554;
+  background-color: #424554;
 }
-.line-under-nav-left{
-  position:relative;
 
-  top:11px;
+.line-under-nav-left {
+  position: relative;
+  top: 11px;
   left: 30px;
-  width:410px;
+  width: 410px;
   height: 1px;
-  background-color:#e4e9eb;
+  background-color: #e4e9eb;
 }
-.line-under-nav-right{
-  position:relative;
 
-  top:11px;
+.line-under-nav-right {
+  position: relative;
+  top: 11px;
   left: 580px;
-  width:410px;
+  width: 410px;
   height: 1px;
-  background-color:#e4e9eb;
+  background-color: #e4e9eb;
 }
 
 .triangle {
-
   position: relative;
   bottom: 80px;
   height: 103px;
   width: 90px;
-  background-color:#323232;
+  background-color: #323232;
   clip-path: polygon(0 70%, 50% 100%, 100% 70%);
   margin: 0 auto;
 }
@@ -89,16 +86,15 @@ nav a:hover{
 .poly {
   z-index: 2;
   position: relative;
-    height: 55px;
+  height: 55px;
   width: 55px;
   background-color: white;
-
 }
 
 .small-poly {
   position: relative;
   top: 3px;
-  height:55px;
+  height: 55px;
   width: 50px;
   background-color: #323232;
 }
@@ -110,7 +106,7 @@ nav a:hover{
   display: inline-block;
   margin: 0 7px 0 7px;
   padding: 0;
-  left:5px;
+  left: 5px;
 }
 
 .hexagon2 {
@@ -128,7 +124,7 @@ nav a:hover{
   -o-transform: rotate(120deg);
   -ms-transform: rotate(120deg);
   transform: rotate(120deg);
-  cursor: pointer;
+  
 }
 
 .hexagon-in1 {
@@ -197,13 +193,31 @@ nav a:hover{
 
 .sec-line {
   bottom: 40px;
-
 }
 
 .third-line {
   bottom: 75px;
 }
-
+.slider-buttons{
+  padding-left:30px;
+  cursor: default;
+}
+.page{
+  height: 6px;
+  width: 6px;
+  background-color: #ddd2c5;
+  display: inline-block;
+  margin:0;
+}
+.page:hover{
+  background-color: #8b8784;
+}
+.bottom-line{
+  width: 960px;
+  height: 1px;
+  background-color: #e4e9eb;
+  margin: 11px auto;
+}
 article {
   padding: 0px;
   padding-top: 63px;
@@ -211,8 +225,20 @@ article {
   margin: 0 auto;
   background-color: white;
 }
-main{
-  width:1020px;
+
+main {
+  margin: 0 auto;
+  width: 1020px;
   height: 341px;
   background-color: #2eb398;
+}
+.left-line-main{
+  display: inline-block;
+  height: 316px;
+  width: 99px;
+  margin:13px 0;
+  border-right: 1px solid #219d84
+}
+main .hexagon{
+  display: inline-block;
 }
