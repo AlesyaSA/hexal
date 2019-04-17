@@ -287,18 +287,24 @@ main .smith-pic {
   margin-left: 650px;
   width: 150px;
   height: 25px;
-  background-color: red;
+
   position: relative;
   display: inline-block;
 }
-.link{
-  width: 21px;
+
+a{
+margin: -3px ;
+  width: 27px;
   height: 25px;
-  background-color: yellow;
+
   display: inline-block;
   position: relative;
 }
-.link .img{
-  width: 21px;
-  height: 25px;
+a img{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 8px;
+  filter: hue-rotate(-20deg);
+
 }
