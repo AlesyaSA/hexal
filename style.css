@@ -308,3 +308,77 @@ a img{
   filter: hue-rotate(-20deg);
 
 }
+.contact-us{
+  margin:0 auto ;
+
+ padding-top: -50px;
+  height: 564px;
+  width: 1020px;
+  background-color: blue;
+ bottom:21px;
+}
+
+input{
+  background-color: green;
+
+}
+.get-head{
+  grid-area: header;
+}
+.get-p{
+  grid-area:p;
+  background-color: black;
+}
+.box1{
+  grid-area:box1;
+  background-color: white;
+}
+.box2{
+  grid-area:box2;
+  background-color: yellow;
+}
+.box3{
+  grid-area:box3;
+  background-color: red;
+}
+.box4{
+  grid-area:box4;
+  background-color: white;
+}
+.get-in-touch{
+  margin:0 auto;
+  position: relative;
+  top:13px;
+
+  background-color: green;
+  width:780px;
+  height: auto;
+  display: grid;
+  border-top: 1px solid white;
+  grid-template-columns: 580px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header"
+  "header header"
+  "box1 p"
+  "box2 p"
+  "box3 p"
+  "box4 contacts"
+}
+.get-in-touch h1{
+  margin:53px 0 0 0;
+}
+.get-in-touch h2{
+  margin:0 0 14px 0;
+}
+.get-in-touch input{
+  border-style: none;
+  height: 38px;
+  width: 580px;
+  margin:10px 0 10px;
+  background-color: #454545;
+}
+.box4 input{
+  height: 150px;
+  
+}
